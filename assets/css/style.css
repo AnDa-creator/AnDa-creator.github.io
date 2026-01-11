@@ -596,6 +596,19 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio .portfolio-block {
+  margin: 10px 0 20px;
+}
+.portfolio .portfolio-subtitle {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--brand-dark);
+  margin-bottom: 6px;
+}
+.portfolio .portfolio-note {
+  margin-bottom: 18px;
+  color: var(--text-muted);
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
