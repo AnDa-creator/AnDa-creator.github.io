@@ -609,6 +609,38 @@ section {
   margin-bottom: 18px;
   color: var(--text-muted);
 }
+.portfolio .portfolio-confidential {
+  display: inline-block;
+  margin: 6px 0 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #0b1f3a;
+  padding: 4px 8px;
+  border-radius: 999px;
+}
+.portfolio .portfolio-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px;
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.portfolio .portfolio-bullets li {
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 6px;
+}
+.portfolio .portfolio-bullets li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--brand-primary);
+  font-weight: 700;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
